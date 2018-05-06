@@ -80,3 +80,30 @@ The economy module allows admins to set a cost to multiple actions (teleports, c
 
 currency name is also configurable: name the currency yourself
 
+Shop
+^^^^
+
+*Donators now have access to the new shop from the economy panel*
+
+*Admins can add items to the shop, set the amount quality and price*
+
+*Players go to the same page (eg https://csmm.catalysm.net/shop/42) and can purchase items there*
+
+*Once purchased they can be claimed ingame with the new claim command*
+
+**shop commands**
+
+$claim::
+
+    drops all claimed items at the players feet -> Best to do this on a even surface
+
+$claim list::
+
+    shows all items that can be claimed by the player
+
+$shop::
+
+    Replies with a link to your servers shop  
+    
+.. image:: ../images/Features-Economy-Shop.png
+    
