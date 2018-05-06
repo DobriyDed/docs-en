@@ -45,7 +45,7 @@ Add a admin
 
 *first get the admin to login to csmm with steam this will create a profile*
 
-*then go to csmm settings -> Basic server settings -> blue button "add/remove admins" -> enter the admins steam id and click Add*
+*then go to csmm settings -> Basic server settings -> blue button "add/remove admins" -> enter the admins steamid and click Add*
 
 *once you have done this the admins name and steamid should show on the right hand side*
 
