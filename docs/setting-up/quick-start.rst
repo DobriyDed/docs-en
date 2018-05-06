@@ -38,3 +38,15 @@ Add your server
 
 Go to the website, login and navigate to the add server page. Fill in the info, click submit and you will be taken to your servers dashboard.
 
+Add a admin 
+----------------
+
+**how to add a admin to your csmm server**
+
+*first get the admin to login to csmm with steam this will create a profile*
+
+*then go to csmm settings -> Basic server settings -> blue button "add/remove admins" -> enter the admins steam id and click Add*
+
+*once you have done this the admins name and steamid should show on the right hand side*
+
+
