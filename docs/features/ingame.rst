@@ -90,20 +90,6 @@ Shop
 *Players go to the same page (eg https://csmm.catalysm.net/shop/42) and can purchase items there*
 
 *Once purchased they can be claimed ingame with the new claim command*
-
-**shop commands**
-
-$claim::
-
-    drops all claimed items at the players feet -> Best to do this on a even surface
-
-$claim list::
-
-    shows all items that can be claimed by the player
-
-$shop::
-
-    Replies with a link to your servers shop  
     
 .. image:: ../images/Features-Economy-Shop.png
     
