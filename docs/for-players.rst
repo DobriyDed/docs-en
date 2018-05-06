@@ -61,3 +61,18 @@ Economy
 find out your economy balance::
 
     $balance
+    
+shop
+^^^^
+
+$claim::
+
+    drops all claimed items at the players feet -> Best to do this on a even surface
+
+$claim list::
+
+    shows all items that can be claimed by the player
+
+$shop::
+
+    Replies with a link to your servers shop     
