@@ -175,6 +175,12 @@ Notifications
 
 .. image:: ../images/Discord-countryBan-notification.jpg
 
+**Cron Job / Server Automation Notification**
+
+*A notification that shows when a automated job has been run*
+
+.. image:: ../images/Discord-cron-job-notification.png
+
 Configuration
 -------------
 
