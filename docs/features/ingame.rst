@@ -67,7 +67,7 @@ Want to execute ANY command in ANY type of time interval? now you can*
 
 *The cron syntax allows you to customize the interval however you want! Want something to run every 10 minutes? Check! Want it to run every 25th minute of the hour? Check! Want it to run once a week, on thursday, at 3 am?*
 
-**helpfull cron link https://crontab.guru/**
+**helpfull cron** link https://crontab.guru/
 
 .. image:: ../images/Features-Automation.png
     
