@@ -60,7 +60,7 @@ Spawnmultipleentity is a coppis command for anyone without see example below::
     Spawnentity ${entityId} 59 ;Spawnentity ${entityId} 59
     
 Cron job / Automation commands
-^^^^^^^^^^^^^^^^
+--------
 
 *Admins can create Automated commands for eg Want automated server restarts? Want to send a message to your players every x minutes?
 Want to execute ANY command in ANY type of time interval? now you can*
