@@ -120,7 +120,11 @@ Arguments:
 
 Player
 ^^^^^^^^
-detailed Player profile lookup 
+
+Aliases: 
+    *steamid, entityid*
+    
+detailed Player profile lookup
 
 .. image:: ../images/Discord-player-command.png
 
@@ -129,6 +133,9 @@ Admin commands
 
 Lookup
 ^^^^^^^^
+Aliases: 
+    *steamid, entityid*
+    
 detailed lookup for admins including inventory and steam id
 
 .. image:: ../images/Discord-Lookup-command.png
