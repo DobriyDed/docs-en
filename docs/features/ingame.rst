@@ -92,6 +92,15 @@ The economy module allows admins to set a cost to multiple actions (teleports, c
 
 currency name is also configurable: name the currency yourself
 
+playtime earner
+^^^^^^^^
+*the playtime earner allows admins to set the amount of currency a player can earn during there time online*
+the amount and time intervals are also configurable 
+
+kill earner
+^^^^^^^^
+*the kill earner allows admins to set a amount of currency earned per zombie and or player kill*
+
 Shop
 ^^^^
 
