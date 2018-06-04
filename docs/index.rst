@@ -1,13 +1,14 @@
 .. toctree::
    :maxdepth: 2
 
-   setting-up/quick-start
-   features/discord
-   features/ingame
-   contributing-to-documentation
-   for-players
-   support
-   about
+   pages/quick-start
+   pages/discord
+   pages/ingame
+   pages/contributing-to-documentation
+   pages/for-players
+   pages/FAQ
+   pages/support
+   pages/about
 
 CSMM
 ========
@@ -22,7 +23,7 @@ CSMM is a server manager for 7 Days to Die.
 Links
 -------
 
-- `Issue tracker <https://github.com/niekcandaele/CSMM-issues>`_  
+- `Issue tracker <https://github.com/CatalysmsServerManager/CSMM-issues>`_  
 - `Discord server <https://discordapp.com/invite/kuDJG6e>`_  
 
 License
