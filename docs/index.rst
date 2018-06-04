@@ -6,6 +6,7 @@
    pages/ingame
    pages/contributing-to-documentation
    pages/for-players
+   pages/FAQ
    pages/support
    pages/about
 
