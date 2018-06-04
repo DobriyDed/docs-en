@@ -21,9 +21,30 @@ Commands
 
 **Multiple 7dtd servers per discord guild**
 
-*Note: If you have multiple servers commands will take an extra argument. This server selector argument is always the last argument of the command.*
+A note for users who have more than one 7DTD server linked to a discord guild. CSMM needs to be able to differentiate between servers. That's why all commands can take one extra argument at the end, a server identifier.
 
-*eg: Status becomes status 1 or status 2*
+Use the "listservers" discord command to see a list of servers associated with this guild, if you want to execute a command for a second server, you'll add that servers identifier at the end of a command.
+By default, this argument is 1.
+
+So for example, if you have 2 servers associated with a guild
+
+"$status" will respond with status for server 1. To get status for your second server, you will use "$status 2"
+
+Another example:
+"$ex say "sends a message to first server""
+
+"$ex say "sends a message to third server" 3"
+
+
+** Starting and ending command arguments when they contain spaces **
+
+When a command takes an argument that can contain spaces, you will also need to start and end your arguments properly. Consider the following
+
+"$ex say test" - This will send a message to server one
+"$ex say another test" - This will think that 'test' is the server identifier! This is **bad syntax**
+
+The correct way is this: "$ex say "another test""
+
 
 Status
 ^^^^^^^^
@@ -48,83 +69,51 @@ Detailed infomation about your server and settings
 
 .. image:: ../images/discord-command-serverinfo.png
 
-Top playtime
+Top
 ^^^^^^^^
 
 Which players have spent the most time on your server?
 
 Arguments: 
-    *amount* The amount of players to show. maximum 20.
+  -  *type* What type of data do you want to see the top players of? This can be: 'playtime', 'zombies', 'players', 'deaths', 'currency', 'level' or 'score'
+  -  *amount* The amount of players to show. maximum 20.
 
 .. image:: ../images/discord-command-top-playtime.png
 
-Top zombies
-^^^^^^^^
 
 Which players have killed the most zombies on your server?
 
-Arguments: 
-    *amount* The amount of players to show. maximum 20.
-
 .. image:: ../images/discord-command-top-zombies.png
 
-Top deaths
-^^^^^^^^
 
 Which players have died the most on your server?
 
-Arguments: 
-    *amount* The amount of players to show. maximum 20.
-
 .. image:: ../images/discord-command-top-deaths.png
 
-top players
-^^^^^^^^
 
 Which players have killed the most players on your server?
 
-Arguments: 
-    *amount* The amount of players to show. maximum 20.
-
 .. image:: ../images/discord-command-top-players.png
-
-Top currency
-^^^^^^^^
 
 Which players have the most currency on your server?
 
-Arguments: 
-    *amount* The amount of players to show. maximum 20.
-
 .. image:: ../images/discord-command-top-currency.png
-
-Top level
-^^^^^^^^
 
 Which players have the highest level on your server?
 
-Arguments: 
-    *amount* The amount of players to show. maximum 20.
 
 .. image:: ../images/discord-command-top-level.png
 
-Top score
-^^^^^^^^
-
 Which players have the highest score your server?
-
-Arguments: 
-    *amount* The amount of players to show. maximum 20.
 
 .. image:: ../images/discord-command-top-score.png
 
 Player
 ^^^^^^^^
     
-detailed Player profile lookup
+Detailed player profile lookup. This command will only show information that is okay to show to all your players. This should be used in public channels (as opposed to lookup).
 
-Aliases: 
- *steamid, entityid*
+Search by name, steam ID or entity ID
 
 .. image:: ../images/Discord-player-command.png
 
@@ -134,20 +123,15 @@ Admin commands
 Lookup
 ^^^^^^^^
     
-detailed lookup for admins including inventory and steam id
+Detailed player profile lookup. In contrast to the player command, this will show info like IP, location. This command should be used in admin channels
 
-Aliases: 
- *steamid, entityid*
+Search by name, steam ID or entity ID
     
 .. image:: ../images/Discord-Lookup-command.png
 
 Admin exec console commands
-^^^^^^^^
-Admin ex commands (also known as console commands) can be run by CSMM discord bot as long as the server owner has added you as a admin
-
-*Note: If you have multiple servers ex commands will take an extra argument. This server selector argument is always the last argument of the command.*
-
-*eg: ex mem becomes ex "mem" 1 or ex "mem" 2 or ex 'say "hello everyone"' 2*
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+CSMM can run console command for you from discord. Only users who are registered as owner or admin of a server on CSMM can use this command.
 
 .. image:: ../images/discord-command-excommand.png
 
@@ -155,37 +139,37 @@ Notifications
 ----------
 **Ticket Notfiication**
 
-*Discord ticket notificaiton for csmms ticket function $calladmin*
+Notifications for $calladmin tickets. You will receive a notification when a new ticket or comment is made.
 
 .. image:: ../images/Discord-ticket-notification.png
 
 **Lost and Connected Notification**
 
-*Get notified when csmm loses and connects to your 7days server*
+Get notified when csmm loses and connects to your server. 
 
 .. image:: ../images/Discord-connection-notification.png
 
 **CSMM Restart Notfiication**
 
-*A notification that shows when csmm restarts*
+A notification that shows when csmm restarts. This is usually when CSMM gets updated or there are issues with the service.
 
 .. image:: ../images/Discord-restart-notification.png
 
 **Chatbridge Notfiication**
 
-*A notifcation that shows what channel in discord is set for chatbridge*
+A notifcation that updates you on chat bridge status.
 
 .. image:: ../images/Discord-chatbridge-notification.png
 
 **Country Ban Notfiication**
 
-*A notification that shows when a player get banned for a country you have set for country ban in csmm*
+A notification that shows when a player gets kicked or banned by the countryban module.
 
 .. image:: ../images/Discord-countryBan-notification.jpg
 
 **Cron Job / Server Automation Notification**
 
-*A notification that shows when a automated job has been run*
+A notification that shows when a automated job has been run. This could also be used to keep a periodic log of some command output.
 
 .. image:: ../images/Discord-cron-job-notification.png
 
@@ -194,7 +178,4 @@ Configuration
 
 All discord configuration can be done via the settings page in your servers dashboard.
 
-Link your CSMM profile to Discord
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Go to your profile page on CSMM, look for the Discord ID section and click the Discord icon to log in.
