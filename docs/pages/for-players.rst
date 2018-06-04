@@ -58,21 +58,22 @@ Set a teleport location to private::
     
 Economy
 ^^^^^^^^^^
-find out your economy balance::
+Find out your economy balance::
 
     $balance
     
-shop
-^^^^
+Shop
+^^^^^^
 
-$claim::
+Claim all items you have purchased. Drops all claimed items at the players feet. Best to do this on a even surface. If you have more than 10 items ready to be claimed, only the first 10 will be given at a time.::
 
-    drops all claimed items at the players feet -> Best to do this on a even surface
+    $claim
 
-$claim list::
+List all items that can be claimed::
 
-    shows all items that can be claimed by the player
+    $claim list
 
-$shop::
+Replies with a link to the server shop::
 
-    Replies with a link to your servers shop     
+    $shop
+
