@@ -4,23 +4,24 @@ In-game features
 Country ban
 -----------
 
-Select countries that you do not wish on your server. CSMM will automatically kick anyone joining from an IP in these countries.
+Select countries that you do not wish on your server. CSMM will automatically kick or ban anyone joining from an IP in these countries.
 
-**Note** This is very naive protection. Users can get around this with VPN/proxies. 
+**Note** This is very naive protection. Users can get around this with VPN/proxies. This'll keep casuals out, but if someone REALLY wants to get in this will not suffice.
 
 Commands
 --------
 
 calladmin
 ^^^^^^^^^^
-Create a support ticket. CSMM will collect some data such as your inventory and location to display along the ticket.
+
+Let a player create a support ticket. Admins can get notified of this ticket and can view/comment on it via the website. CSMM will collect inventory and location data to display along the ticket.
 
 Custom commands
 ^^^^^^^^^^^^^^^^
 
 Admins can create custom ingame commands. You can set delay, timeout, cost of the command.
 
-**note: If a custom command has same name as an existing csmm command, the existing csmm command will always take precendence. the custom command never gets executed**
+**Note: If a custom command has same name as an existing csmm command, the existing csmm command will always take precendence. the custom command never gets executed.**
 
 For example: 
 
@@ -62,12 +63,13 @@ Spawnmultipleentity is a coppis command for anyone without see example below::
 Cron job / Automation commands
 --------
 
-*Admins can create Automated commands for eg Want automated server restarts? Want to send a message to your players every x minutes?
-Want to execute ANY command in ANY type of time interval? now you can*
+Cron jobs allow you to configure commands to run at specific time intervals. You can set up a job to run every x minutes or hours.
 
-*The cron syntax allows you to customize the interval however you want! Want something to run every 10 minutes? Check! Want it to run every 25th minute of the hour? Check! Want it to run once a week, on thursday, at 3 am?*
+Advanced users can also use the cron syntax to define their jobs. This allows much more control and 'cool stuff' you can do.
 
-**helpfull cron** link https://crontab.guru/
+To get you started with the cron syntax, you can use this very helpful website https://crontab.guru/
+
+Common use cases are automatic server restarts with a countdown, infoticker messages. Advanced users can customize this to create special server events. Let us know if you make some cool stuff with this! :)
 
 .. image:: ../images/Features-Automation.png
     
@@ -78,12 +80,13 @@ Set a message to be sent to players when they join the server and/or show this m
 
 This is useful to advertise your discord server, remind people to abide by the rules etc
 
+**Note: the periodic messages are deprecated, you should use the server automation feature. In the future, MOTD will only be shown when players connect to the server.**
 
 
 Support tickets
 -----------------
 
-Players can create support tickets with the corresponding command (if enabled). This is a great way for players to ask admins for some assistance, even when there is no admin currently online.
+Players can create support tickets with the corresponding "calladmin" command (if enabled). This is a great way for players to ask admins for some assistance, even when there is no admin currently online.
 
 Economy
 ---------
@@ -92,25 +95,22 @@ The economy module allows admins to set a cost to multiple actions (teleports, c
 
 currency name is also configurable: name the currency yourself
 
-playtime earner
+Playtime earner
 ^^^^^^^^
-*the playtime earner allows admins to set the amount of currency a player can earn during there time online*
-the amount and time intervals are also configurable 
 
-kill earner
+Allow players to earn money for being online on the server. Timer and amount can be configured.
+
+Kill earner
 ^^^^^^^^
-*the kill earner allows admins to set a amount of currency earned per zombie and or player kill*
+
+Allow players to earn money for killing players or zombies.
 
 Shop
 ^^^^
 
-*Donators now have access to the new shop from the economy panel*
+Admins can add items to the shop, set the amount quality and price. These will have infinite stock.
 
-*Admins can add items to the shop, set the amount quality and price*
-
-*Players go to the same page (eg https://csmm.catalysm.net/shop/42) and can purchase items there*
-
-*Once purchased they can be claimed ingame with the new claim command*
+Players can go to the same page or use the ingame "$shop" command, to be presented with a menu of items they can purchase. After purchasing, players can claim their items via the ingame "$claim" command.
     
 .. image:: ../images/Features-Economy-Shop.png
     
