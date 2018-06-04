@@ -1,5 +1,0 @@
-Discord configuration
-=====================
-
-
-Go to the website and set it up.

@@ -4,13 +4,22 @@ Quick Start
 Install `Allocs Fixes <https://7dtd.illy.bz/wiki/Server%20fixes>`_.
 --------------------------------------------------------------------
 
-Confirm the webserver is up and running. To do this, you can type ``ip:port`` in your browser. You should see the dynamic map page.
+Confirm the webserver is up and running. To do this, you can browse to ``http://ip:port`` in your browser. Replace ip and port with the values for your server (so for example you'd type something like this; http://192.168.0.1:8084) You should see the dynamic map page.
 
-The webserver uses ControlPanelPort+2 as port. You can find ControlPanelPort in your serverconfig.xml.  
-  ControlPanelPort could also be called query port on some larger hosting providers
+To get the port of the webserver, you will need to go into your serverconfig. xml and find the value for "ControlPanelPort".
+The webserver uses ControlPanelPort+2 as port.
+
+If you do not have direct access to your server config (usually because of hosting companies setting it up for you), you'll need to do some more digging;
+
+ - ControlPanelPort could also be called query port on some larger hosting providers;
+ - When Your server boots up, you should see a logline like this "1.234 Started Webserver on 8082" (located in output_log.txt)
+ - See this page for additional information ``https://7dtd.illy.bz/wiki/Integrated%20Webserver``
 
 Set up authentication credentials for CSMM
 --------------------------------------------
+
+To be able to read data and execute actions on your server, you need to make a authentication name and token. 
+You will create these yourself, so pick any value BUT consider that these are like the keys to your server. If you let other people know what these are or you pick easy to guess values, this is a security risk! 
 
 Connect to your server console (telnet, webpanel, ingame should all work) and execute these commands.
 
