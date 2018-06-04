@@ -4,6 +4,8 @@ Quick Start
 Install `Allocs Fixes <https://7dtd.illy.bz/wiki/Server%20fixes>`_.
 --------------------------------------------------------------------
 
+Allocs fixes is probably already installed on your server, if not you'll end up installing it anyway most likely.
+
 Confirm the webserver is up and running. To do this, you can browse to ``http://ip:port`` in your browser. Replace ip and port with the values for your server (so for example you'd type something like this; http://192.168.0.1:8084) You should see the dynamic map page.
 
 To get the port of the webserver, you will need to go into your serverconfig. xml and find the value for "ControlPanelPort".
@@ -19,7 +21,7 @@ Set up authentication credentials for CSMM
 --------------------------------------------
 
 To be able to read data and execute actions on your server, you need to make a authentication name and token. 
-You will create these yourself, so pick any value BUT consider that these are like the keys to your server. If you let other people know what these are or you pick easy to guess values, this is a security risk! 
+You will create these yourself, so pick any value BUT consider that these are like the keys to your server. If you let other people know what these are or you pick easy to guess values, this is a security risk! Be smart.
 
 Connect to your server console (telnet, webpanel, ingame should all work) and execute these commands.
 
