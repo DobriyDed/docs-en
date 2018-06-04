@@ -61,7 +61,7 @@ Spawnmultipleentity is a coppis command for anyone without see example below::
     Spawnentity ${entityId} 59 ;Spawnentity ${entityId} 59
     
 Cron job / Automation commands
---------
+--------------------------------
 
 Cron jobs allow you to configure commands to run at specific time intervals. You can set up a job to run every x minutes or hours.
 
@@ -96,17 +96,17 @@ The economy module allows admins to set a cost to multiple actions (teleports, c
 currency name is also configurable: name the currency yourself
 
 Playtime earner
-^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 Allow players to earn money for being online on the server. Timer and amount can be configured.
 
 Kill earner
-^^^^^^^^
+^^^^^^^^^^^^^
 
 Allow players to earn money for killing players or zombies.
 
 Shop
-^^^^
+^^^^^^
 
 Admins can add items to the shop, set the amount quality and price. These will have infinite stock.
 
