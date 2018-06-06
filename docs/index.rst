@@ -24,7 +24,7 @@ Links
 -------
 
 - `Issue tracker <https://github.com/CatalysmsServerManager/CSMM-issues>`_  
-- `Discord server <https://discordapp.com/invite/kuDJG6e>`_  
+- `Discord server <https://discordapp.com/invite/EwyDdNA>`_  
 
 License
 -------
