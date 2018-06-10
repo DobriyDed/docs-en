@@ -3,6 +3,7 @@
 
    pages/quick-start
    pages/discord
+   pages/tracking
    pages/ingame
    pages/contributing-to-documentation
    pages/for-players
