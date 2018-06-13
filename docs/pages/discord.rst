@@ -132,9 +132,9 @@ Search by name, steam ID or entity ID
     
 .. image:: ../images/Discord-Lookup-command.png
 
-Admin exec console commands
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-CSMM can run console command for you from discord. Only users who are registered as owner or admin of a server on CSMM can use this command.
+Ex
+^^^^^^
+CSMM can run console commands for you from discord. Only users who are registered as owner or admin of a server on CSMM can use this command.
 
 .. image:: ../images/discord-command-excommand.png
 
