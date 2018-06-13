@@ -11,7 +11,10 @@ CSMM will automatically grab new messages from the game and send them to your sp
 
 .. image:: ../images/discord-chatbridge.png
 
-Configured via the website, make sure to add the bot to your server
+Make sure you have the bot in your Discord guild.
+
+Admins can configure certain prefixes to be blocked from chat bridge. This is useful to reduce clutter.
+If you want to make your chatbridge public, it is recommended to turn "rich messages" off. This will make chatbridge display a basic "playername connected" message instead of steam IDs and countries.
 
 *Note: make sure the bot has read, send messages permission and permission to embed links!*
 
