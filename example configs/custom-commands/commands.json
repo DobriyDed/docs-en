@@ -1,0 +1,26 @@
+[
+    {
+        "costToExecute": 0,
+        "name": "animals",
+        "commandsToExecute": "spawnmultipleentity ${entityId} 4 @ 59 59 59 59 60 61 61",
+        "enabled": true,
+        "delay": 0,
+        "timeout": 21600
+    },
+    {
+        "costToExecute": 1000,
+        "name": "brutality",
+        "commandsToExecute": "say \"Die Bitch\" ; spawnmultipleentity ${entityId} 15 @ 2 3 4 5 6 9 15 15 15 17 18 19 21 31 31 35 40 40 45 46 53 56 63 63 63 63 64 67 67 67 70",
+        "enabled": true,
+        "delay": 3,
+        "timeout": 1200
+    },
+    {
+        "costToExecute": 0,
+        "name": "trade",
+        "commandsToExecute": "teleportplayer ${entityId} -117 34 1493",
+        "enabled": true,
+        "delay": 0,
+        "timeout": 0
+    }
+]

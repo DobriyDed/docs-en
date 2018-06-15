@@ -1,0 +1,30 @@
+[
+    {
+        "name": "bottledWater",
+        "friendlyName": "water",
+        "amount": 5,
+        "quality": 0,
+        "price": 5
+    },
+    {
+        "name": "cornBread",
+        "friendlyName": "food",
+        "amount": 5,
+        "quality": 0,
+        "price": 5
+    },
+    {
+        "name": "turd",
+        "friendlyName": "shit mate",
+        "amount": 100,
+        "quality": 0,
+        "price": 1000
+    },
+    {
+        "name": "baconAndEggs",
+        "friendlyName": "baconAndEggs ",
+        "amount": 50,
+        "quality": 0,
+        "price": 2000
+    }
+]

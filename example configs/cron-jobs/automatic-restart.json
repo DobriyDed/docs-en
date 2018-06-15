@@ -1,0 +1,44 @@
+[
+    {
+        "command": "say \"[ff00ff] Server will restart in 5 minutes\"",
+        "temporalValue": "25 4 * * * ",
+        "enabled": true,
+        "notificationEnabled": true
+    },
+    {
+        "command": "say \"[ff00ff] Server will restart in 4 minutes\"",
+        "temporalValue": "26 4 * * * ",
+        "enabled": true,
+        "notificationEnabled": true
+    },
+    {
+        "command": "say \"[ff00ff] Server will restart in 3 minutes\"",
+        "temporalValue": "27 4 * * * ",
+        "enabled": true,
+        "notificationEnabled": true
+    },
+    {
+        "command": "say \"[ff00ff] Server will restart in 2 minutes\"",
+        "temporalValue": "28 4 * * * ",
+        "enabled": true,
+        "notificationEnabled": true
+    },
+    {
+        "command": "say \"[ff00ff] Server will restart now! last warning please get safe!!!\"",
+        "temporalValue": "29 4 * * * ",
+        "enabled": true,
+        "notificationEnabled": true
+    },
+    {
+        "command": "saveworld",
+        "temporalValue": "29 4 * * * ",
+        "enabled": true,
+        "notificationEnabled": true
+    },
+    {
+        "command": "shutdown",
+        "temporalValue": "30 4 * * *",
+        "enabled": true,
+        "notificationEnabled": true
+    }
+]
