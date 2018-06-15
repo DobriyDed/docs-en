@@ -77,3 +77,13 @@ Replies with a link to the server shop::
 
     $shop
 
+Who
+^^^^^^^^^^
+
+See who was in a certain radius around your current location. Size defaults to 150 blocks. When a large amount of players has been in your area, it will show who was there the latest. Consider keeping the area to search as small as possible for most accurate results ::
+
+    $ who
+
+You can specify the location to search. Min 1 max 500 ::
+
+    $who 250

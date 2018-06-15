@@ -88,29 +88,3 @@ Support tickets
 
 Players can create support tickets with the corresponding "calladmin" command (if enabled). This is a great way for players to ask admins for some assistance, even when there is no admin currently online.
 
-Economy
----------
-
-The economy module allows admins to set a cost to multiple actions (teleports, custom commands, ...). Players can earn money by being ingame or via discord (discord text earner)  the player logins to csmm goes to there profile page and logs with discord
-
-currency name is also configurable: name the currency yourself
-
-Playtime earner
-^^^^^^^^^^^^^^^^
-
-Allow players to earn money for being online on the server. Timer and amount can be configured.
-
-Kill earner
-^^^^^^^^^^^^^
-
-Allow players to earn money for killing players or zombies.
-
-Shop
-^^^^^^
-
-Admins can add items to the shop, set the amount quality and price. These will have infinite stock.
-
-Players can go to the same page or use the ingame "$shop" command, to be presented with a menu of items they can purchase. After purchasing, players can claim their items via the ingame "$claim" command.
-    
-.. image:: ../images/Features-Economy-Shop.png
-    

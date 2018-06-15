@@ -5,6 +5,7 @@
    pages/discord
    pages/tracking
    pages/ingame
+   pages/economy
    pages/contributing-to-documentation
    pages/for-players
    pages/FAQ

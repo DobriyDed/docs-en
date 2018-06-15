@@ -1,20 +1,22 @@
 Player tracking
 =======================
 
-*player tracking can be queried in 2 ways* **via player name / steamid or location** *the info will show on the map as below. there is also a draw claim button to help show players areas*
+CSMM can take a snapshot of online players on your server every 30 seconds. It can store location and inventory data.
+
+.. raw:: html
+   :file: ../images/tracking/trackinggif.html
+
+
+This information can be queried from the player tracking page on the website.
 
 .. image:: ../images/Features-Player-Tracking-Map.png
 
-*player location data shown below gives exact date/time ,coordinates and distance away from your queried location*
-
-.. image:: ../images/Features-Location-Data.png
-
-*inventory changes below shows exact date/time ,coordinates and item changes within your queried location*
-
-**green for items added to players inventory/red for items leaving the players inventory**
+CSMM can show you the inventory changes for every player in your query.
 
 .. image:: ../images/Features-inventory-changes.png
 
-*inventory data below shows item movement in queried location*
+You can also consult the raw inventory or location data. If you specified a location to search in, distance will also be calculated.
+
+.. image:: ../images/Features-Location-Data.png
 
 .. image:: ../images/Features-inventory-data.png

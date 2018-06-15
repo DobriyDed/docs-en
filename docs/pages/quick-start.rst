@@ -6,16 +6,20 @@ Install `Allocs Fixes <https://7dtd.illy.bz/wiki/Server%20fixes>`_.
 
 Allocs fixes is probably already installed on your server, if not you'll end up installing it anyway most likely.
 
-Confirm the webserver is up and running. To do this, you can browse to ``http://ip:port`` in your browser. Replace ip and port with the values for your server (so for example you'd type something like this; http://192.168.0.1:8084) You should see the dynamic map page.
-
 To get the port of the webserver, you will need to go into your serverconfig. xml and find the value for "ControlPanelPort".
 The webserver uses ControlPanelPort+2 as port.
 
 If you do not have direct access to your server config (usually because of hosting companies setting it up for you), you'll need to do some more digging;
 
- - ControlPanelPort could also be called query port on some larger hosting providers;
+ - ControlPanelPort could also be called query port on some hosting providers. Be careful because 7DTD also has a query port, this is not the same as the port we need for CSMM!
+
  - When Your server boots up, you should see a logline like this "1.234 Started Webserver on 8082" (located in output_log.txt)
+
  - See this page for additional information ``https://7dtd.illy.bz/wiki/Integrated%20Webserver``
+
+
+ Finally, confirm the webserver is up and running. To do this, you can browse to ``http://ip:port`` in your browser. Replace ip and port with the values for your server (so for example you'd type something like this; http://192.168.0.1:8084) You should see the dynamic map page.
+
 
 Set up authentication credentials for CSMM
 --------------------------------------------
