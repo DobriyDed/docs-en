@@ -64,3 +64,9 @@ Some important pointers for JSON syntax
  - Numbers or boolean values (true/false) don't need " "
 
 When you import your data, it is still validated by the same rules as you would do it via the web interface. This means that itemNames in shop must be valid item names on your server, commands need to be valid etc 
+
+
+How do I have CSMM commands from ingame chat?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This functionality requires an API mod. CSMM cannot provide it but the mod Coppi's additions provides a very useful command 'tcch' which can hide messages starting with a certain prefix from chat. Since v4.92 it supports multiple prefixes.
