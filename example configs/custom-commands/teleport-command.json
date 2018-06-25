@@ -1,0 +1,10 @@
+[
+  {
+    "costToExecute": 0,
+    "name": "trade",
+    "commandsToExecute": "teleportplayer ${entityId} -117 34 1493",
+    "enabled": true,
+    "delay": 0,
+    "timeout": 0
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "costToExecute": 30,
+    "name": "animals-pro",
+    "commandsToExecute": "spawnmultipleentity ${entityId} 15 @ 64 64 64 65 65 65 68 66 66 66",
+    "enabled": true,
+    "delay": 2,
+    "timeout": 3600
+  }
+]
