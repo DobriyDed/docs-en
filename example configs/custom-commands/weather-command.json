@@ -1,0 +1,10 @@
+[
+  {
+    "costToExecute": 0,
+    "name": "weather",
+    "commandsToExecute": "weather rain 0 ;weather snow 0 ;weather clouds 0",
+    "enabled": true,
+    "delay": 0,
+    "timeout": 1200
+  }
+]

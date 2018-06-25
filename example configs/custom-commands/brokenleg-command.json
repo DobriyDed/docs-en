@@ -1,0 +1,10 @@
+[
+  {
+    "costToExecute": 0,
+    "name": "brokenleg",
+    "commandsToExecute": "debuffplayer ${entityId} brokenleg",
+    "enabled": true,
+    "delay": 0,
+    "timeout": 600
+  }
+]
